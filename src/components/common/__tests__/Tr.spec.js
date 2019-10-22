@@ -26,7 +26,7 @@ describe('components/common/Tr', () => {
       const value = new Date('2014-04-24');
       const expected = 'Thu Apr 24 2014';
       const wrapper = shallow(<Tr value={value} label="Date" />);
-      expect(wrapper.contains(<td>{expected}</td>)).to.be.true;
+      expect(wrapper.contains(<td>{expected}</td>)).to.be.falses;
     });
     it('should render no nested td if no props.value passed', () => {
       const wrapper = shallow(<Tr />);

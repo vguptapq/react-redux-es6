@@ -1,0 +1,15 @@
+# The usual suspects
+/node_modules/
+.DS_Store
+dist
+postsales2
+*.log
+.idea
+*.iml
+/coverage
+
+# Emacs Temp files
+.#*
+
+# VS Code Config Files
+.vscode
